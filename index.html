@@ -19,9 +19,22 @@
 <meta name="theme-color" content="#ffffff">
 
       <style>
+	      
+.container {
+	position:relative;
+	width:100%;	
+	height:0;
+	padding-bottom:56.25%;
+}
+.video {
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height:100%;
+	      }
 
-        body
-{
+body {
 	margin:0;
 	padding:1%;
 	text-align:left;
@@ -86,10 +99,8 @@ iframe {
       </style>
 	</head>
 	<body>
-		<div style="position: fixed; z-index: -50; width: 100%; height: 100%">
-
+		<div class="container">
 			<iframe width="1000" height="800" src="https://www.youtube-nocookie.com/embed/-GU8BpZg648?autoplay=1&loop=1&controls=0&amp;start=5;rel=0;modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="width:100%;" allowfullscreen></iframe>
-
 		</div>
 
 		<div id="main">
