@@ -36,18 +36,19 @@
  body
 {
 	margin:0;
-	padding:0;
+	padding:1%;
 	text-align:left;
 	font-family:Arial;
 	font-size:18px;
 	color:#fff;
+	background-color:#000000;
 	text-decoration:none;
 }
 
 #main
 {
 	padding:1em 2em;
-	background-color:#000000;	
+	background-color:#FF0000;	
 	position:absolute;
 	top:50%;
 	left:35%;
@@ -57,12 +58,8 @@
 	margin-right:-150px;
 	width:725px;
 	height:365px;
-  -moz-opacity: 0.35;
--khtml-opacity: 0.35;
-opacity: 0.55;
--ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=35);
-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=35);
-filter:alpha(opacity=35);
+	background: rgb(0, 0, 255); /*The Fallback */
+	background: rgba(0, 0, 255, 0.35);
 }
 form
 {
@@ -88,12 +85,16 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color:#000000;
+    color:#00FF00;
 }
 
 /* selected link */
 a:active {
     color:#000000;
+}
+iframe {
+	width:100%;
+	height:100%
 } 
       </style>
 	</head>
